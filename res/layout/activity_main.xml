@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f3f4f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewRahuKaal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rahu Kaal: "
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:padding="16dp"
+            android:background="@color/primary"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonToggleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Description"
+            android:background="@color/primary"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rahu Kalam\n\nIt is the time of the Rahu Graha or Dragon's Head.\n\n Any activity, meeting, event or journey commenced during this time is expected to meet a great degree of failure, lack of favour or postponement.\n\nAuspicious activities such as attending an interview, signing a contract, crucial meetings, new work, journey, trade, business, marriage, career dealings, sale or purchase of any assets, and purchasing assets/stocks/jewellery should be avoided during this period. It is generally advisable to do cleaning or decluttering jobs in this time period (Rahukal). Trashing of junk / useless e-mails in mailbox, cleaning household, removing unwanted items from a shelf /storage etc., are some of the works recommended during this time.\n\nWhen calculating Rahu kalam time we should take into account daylight savings time and corrections to be applied. The Rahu kalam, Yamagandam and Gulika Kal timings are given in most of the almanacs (Panchang).\n\nNever commence important, investment related or travel related activities, during this time. Leave your home or office or have your meeting, or start your activity always earlier than or after the Rahu Kalam period."
+            android:textSize="18sp"
+            android:textColor="@color/textColorPrimary"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone" />
+
+        <!-- Add other TextViews for Gulika Kaal, Yamagandam, etc. here -->
+    </LinearLayout>
+</ScrollView>
